@@ -16,13 +16,14 @@ header {
 }
 h1 {
 	font-family: 'Great Vibes', cursive;
-	font-size: 50px;
+	font-size: 60px;
 	font-weight: bold;
 	width: 100%;
 	padding: 0 0 10px 0;
 	margin: 0 0 20px 0;		
-	color: #9ADDFF;
-	text-shadow: 2px 2px #3185FF;
+	color: #6BBFEB;
+	text-shadow: 2px 2px #3C7DA6;
+	letter-spacing: -.01em;
 }
 
 p {
