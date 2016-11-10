@@ -1,13 +1,10 @@
 body {
-	background: url("../images/sandpaper.png") 0 0 repeat #eee;
+	background: url("../images/christmas-bg.jpg") 0 0 repeat #eee;
 	margin: 0 auto;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	padding: 0;
 }
-#wrapper {
-	width: 960px;
-	margin: 0 auto;
-}
+
 header {
 	background: #ebebeb;
 	width: 100%;	
@@ -17,73 +14,24 @@ header {
 	display: inline-block;
 	background: url("../images/footer_lodyas.png") 0 0 repeat #777;
 }
-footer {
-	text-align: center;
-	float: left;
-	color: #ccc;
-	background: #ebebeb;
-	width: 100%;	
-	margin: 40px 0 0 0;
-	padding: 30px 0;
-	min-height: auto;
-	display: inline-block;
-	background: url("../images/footer_lodyas.png") 0 0 repeat #777;
-	border-top: 4px solid #FF3B71;
-	 position: fixed;
-    bottom: 0;
-    right: 0;
-}
-.logo {
-	font-family: 'Bungee Inline', cursive;
-	font-size: 2em;
-	color: #fff;
-	width: 300px;
-	background: #FF3B71;
-	padding: 20px;
-	float: left;
-}
-.nav {
-	width: 60%;
-	float: right;
-	margin: 25px 0;
-}
-.nav ul {
-	color: #FF3B71;
-	float: right;
-	padding: 0;
-	margin: 0;	
-}
-.nav ul li {
-	padding: 0;
-	margin: 0;	
-}
-.nav ul li a {
-	font-weight: bold;
-	text-decoration: none;
-	color: #fff;
-	padding: 5px 20px;
-}
-.nav ul li:last {
-	padding: 5px 0 5px 20px;
-}
-.nav ul li a:hover {
-	background: #6ACC07;
-}
-h2 {
-	font-size: 24px;
+h1 {
+	font-family: 'Great Vibes', cursive;
+	font-size: 50px;
 	font-weight: bold;
 	width: 100%;
-	border-bottom: 1px solid #ccc;
 	padding: 0 0 10px 0;
 	margin: 0 0 20px 0;		
+	color: #9ADDFF;
+	text-shadow: 2px 2px #3185FF;
 }
-h3 {
-	font-size: 18px;
+
+p {
+	font-size: 34px;
 	font-weight: bold;
 	width: 100%;
-	border-bottom: 1px solid #ccc;
-	padding: 0 0 10px 0;
-	margin: 0 0 20px 0;		
+	padding: 0;
+	margin: 0;
+	color: #fff;			
 }
 #main {
 	width: 610px;
@@ -113,11 +61,7 @@ h3 {
 .bold {
 	font-weight: bold;
 }
-p {
-	font-size: 14px;
-	line-height: 120%;
-	padding: 0 0 10px 0;
-}
+
 .grey {color: #777;}
 .white {color: #fff;}
 .row {
@@ -174,4 +118,12 @@ textarea {
 	background: #FF3B71;
 	font-size: 14px;
 	color: #fff;
+}
+#game {
+	display: block;
+	height: auto;
+	margin: 50px 0 0 0;
+	text-align: center;
+	padding: 40px;
+	background: #4EA3D9;
 }
