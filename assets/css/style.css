@@ -34,6 +34,13 @@ p {
 	margin: 0;
 	color: #fff;			
 }
+.normal {
+	font-weight: normal;
+	font-size: 32px;	
+}
+.red {
+	color: red;
+}
 #main {
 	width: 610px;
 	float: left;

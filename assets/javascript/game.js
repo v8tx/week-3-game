@@ -61,7 +61,7 @@ document.onkeyup = function(event) {
 	else {
 	// Check if the letter is in the word. Remove a life if incorrect.
 	if (currentWord.indexOf(currentLetterGuessed) < 0) {
-	msg = "<p>Incorrect! Guess again!</p>";	
+	msg = "<p class='red'>Incorrect! Guess again!</p>";	
 	guessesRemaining--;
 	}
 	else {
@@ -84,7 +84,7 @@ function updateGame() {
 	var html = 
 	"<h1>Hangman: Holiday Theme</h1>" +
 	"<p>Press any letter to begin!</p>" +
-	"<p>Letters guessed: " + lettersGuessed + "</p>" +
+	"<p class='normal'>Letters guessed: " + lettersGuessed + "</p>" +
 	"<p>" + hangmanWord + "</p>" +
 	"<p>Guesses remaining: " + guessesRemaining + "</p>" +
 	msg;
@@ -108,7 +108,7 @@ function updateGame() {
 	}
 	// Otherwise, keep going
 	else {
-	html = html + "<p>Select a new letter to continue.</p>";
+	html = html + "<p class='normal'>Select a new letter to continue.</p>";
 	}
 
 	// Placing the html into the game ID
