@@ -65,7 +65,7 @@ document.onkeyup = function(event) {
 	guessesRemaining--;
 	}
 	else {
-	msg = "<p>Correct! Good guess!</p>";	
+	msg = "<p class='green'>Correct! Good guess!</p>";	
 	}
 	
 	lettersGuessed = lettersGuessed + currentLetterGuessed;
